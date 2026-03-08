@@ -23,10 +23,10 @@ export class SnippetsController {
         return this.snippetsService.create(createSnippetDto);
     }
 
-    // @Get()
-    // findAll(@Body() query: SnippetQueryDto) {
-    //     return this.snippetsService.findAll(query);
-    // }
+    @Get()
+    findAll(@Query() query: SnippetQueryDto) {
+        return this.snippetsService.findAll(query);
+    }
 
     @Get(':id')
     findOne(@Param('id') id: string) {

@@ -1,4 +1,4 @@
-﻿import {IsString, IsNotEmpty, IsArray, IsEnum, IsOptional, ArrayMinSize, IsInt, Min, Max} from 'class-validator';
+﻿import {IsString, IsNotEmpty, IsArray, IsEnum, IsOptional, IsInt, Min, Max} from 'class-validator';
 import {SnippetType} from "./snippet.schema";
 import { PartialType } from '@nestjs/mapped-types';
 import { Type } from 'class-transformer';
