@@ -1,5 +1,8 @@
 {
   "scripts": {
+    "prod:backend": "cd backend && npm run build && npm run start",
+    "prod:frontend": "cd frontend && npm run build && npm run start",
+    "prod": "npm-run-all --parallel prod:backend prod:frontend",
     "dev:backend": "cd backend && npm run start:dev",
     "dev:frontend": "cd frontend && npm run dev",
     "dev": "npm-run-all --parallel dev:backend dev:frontend",

@@ -1,2 +1,11 @@
-﻿For the first setup run 'npm run first:setup'
-For development run 'npm run dev'
+﻿#Snippet Vault
+
+Перед першим запуском виконайте команду 'npm run first:setup' та 
+переконайтесь що докер запущено
+
+Для запуску девелопмент білду -  'npm run dev'
+
+Для запуску продакшн білду -  'npm run prod'
+
+Ці всі команди виконуються у кореневій папці проекту
+

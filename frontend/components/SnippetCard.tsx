@@ -1,5 +1,5 @@
-import { Snippet } from '@/api/snippeets/api';
 import Link from 'next/link';
+import {Snippet} from "@/api/snippeets/contracts";
 
 interface SnippetCardProps {
     snippet: Snippet;

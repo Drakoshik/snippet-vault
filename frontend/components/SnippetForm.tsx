@@ -1,9 +1,9 @@
 'use client';
 
 import { useForm } from 'react-hook-form';
-import { CreateSnippetDto, Snippet } from '@/api/snippeets/api';
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
+import {CreateSnippetDto, Snippet} from "@/api/snippeets/contracts";
 
 interface SnippetFormProps {
     initialData?: Snippet;

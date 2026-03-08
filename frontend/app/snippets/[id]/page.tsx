@@ -1,11 +1,12 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { snippetApi, Snippet } from '@/api/snippeets/api';
+import { snippetApi } from '@/api/snippeets/api';
 import { useRouter, useParams } from 'next/navigation';
 import Link from 'next/link';
 import LoadingSpinner from "@/components/LoadingSpinner";
 import SnippetForm from "@/components/SnippetForm";
+import {Snippet} from "@/api/snippeets/contracts";
 
 export default function SnippetDetailPage() {
     const params = useParams();

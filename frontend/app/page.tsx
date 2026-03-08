@@ -1,11 +1,12 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { snippetApi, Snippet, SnippetsResponse } from '@/api/snippeets/api';
+import { snippetApi} from '@/api/snippeets/api';
 import SnippetCard from '@/components/SnippetCard';
 import LoadingSpinner from '@/components/LoadingSpinner';
 import EmptyState from '@/components/EmptyState';
 import SearchBar from '@/components/SearchBar';
+import {SnippetsResponse} from "@/api/snippeets/contracts";
 
 export default function HomePage() {
   const [data, setData] = useState<SnippetsResponse | null>(null);
